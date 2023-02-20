@@ -42,3 +42,10 @@ adb sideload <ROM_PATH>
 ```
 
 6. Reboot and enjoy
+
+##Know issue and notes.
+Some device will face issue, when trying to apply update, will face error install error 1/install aborted/couldn't read partition table and assert failed. To fix it follow this instruction below.
+1. Format your data partition / format factory in recovery
+2. Advance mode > reboot to recovery
+3. Try apply update, it should work. If doesn't, try again from step 1-3.
+
